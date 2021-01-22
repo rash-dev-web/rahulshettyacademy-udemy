@@ -1,0 +1,20 @@
+from selenium import webdriver
+import time
+
+driver = webdriver.Chrome(executable_path="../drivers/chromedriver.exe")
+driver.maximize_window()
+driver.get("https://rahulshettyacademy.com/#/index")
+print(driver.title)
+print(driver.current_url)
+time.sleep(5)
+driver.get("https://rahulshettyacademy.com/#/practice-project")
+time.sleep(5)
+driver.back()
+time.sleep(5)
+driver.refresh()
+time.sleep(5)
+driver.back()
+time.sleep(5)
+driver.minimize_window()
+time.sleep(5)
+driver.close()

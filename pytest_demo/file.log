@@ -1,0 +1,8 @@
+2021-01-22 15:50:49,753 : INFO : pytest_demo.base_class : ['Ayaan', 'Mir', 'Rash']
+2021-01-22 15:51:25,985 : INFO : pytest_demo.base_class : ['Ayaan', 'Mir', 'Rash']
+2021-01-22 15:51:25,986 : DEBUG : pytest_demo.base_class : Ayaan
+2021-01-22 15:54:10,765 : INFO : test_use_data : ['Ayaan', 'Mir', 'Rash']
+2021-01-22 15:54:10,766 : DEBUG :  : Ayaan
+2021-01-22 15:56:38,103 : INFO : test_use_data : ['Ayaan', 'Mir', 'Rash']
+2021-01-22 15:56:38,104 : DEBUG : test_use_data : Ayaan
+2021-01-22 15:56:38,129 : CRITICAL : pytest_demo.test_logging : critical...
